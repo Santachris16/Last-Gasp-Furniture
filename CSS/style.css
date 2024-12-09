@@ -1,65 +1,42 @@
-/* Arcade 2 styling */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
 }
 
 h1 {
-    color: #333;
+    margin: 20px 0;
+    font-size: 2rem;
 }
 
 button {
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    margin: 20px;
-    cursor: pointer;
-    border: none;
-    background-color: #007BFF;
+    background-color: #4CAF50;
     color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }
 
-#gameResult {
-    margin-top: 20px;
-    font-size: 1.1rem;
-    color: blue;
-}
-
-.hidden {
-    display: none;
-}
-
-/* Table styling */
-#statsTable {
+#invoice {
     margin: 20px auto;
-    border-collapse: collapse;
-    width: 80%;
-    background-color: #fff;
-    text-align: left;
+    padding: 20px;
+    width: 50%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-#statsTable th, #statsTable td {
-    border: 1px solid #ddd;
-    padding: 12px;
-}
-
-#statsTable th {
-    background-color: #007BFF;
-    color: white;
-    text-align: center;
-}
-
-#statsTable td {
-    text-align: center;
-}
-
-#farewell h2 {
-    color: #333;
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
 }
