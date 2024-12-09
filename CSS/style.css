@@ -1,0 +1,65 @@
+/* Arcade 2 styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#gameResult {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Table styling */
+#statsTable {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    text-align: left;
+}
+
+#statsTable th, #statsTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+#statsTable th {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+#statsTable td {
+    text-align: center;
+}
+
+#farewell h2 {
+    color: #333;
+}
