@@ -4,35 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Christian Santamaria">
-    <title>Arcade</title>
+    <title>Last Gasp Furniture</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Arcade</h1>
-    <p id="gameResult">Welcome to the Arcade! Choose a game below:</p>
-
-    <!-- Buttons for each game -->
-    <button onclick="playBearNinjaHunter()">Play Bear Ninja Hunter</button>
-    <button onclick="playGuessingGame()">Play Guessing Game</button>
-    <button onclick="playMagic8Ball()">Play Magic 8 Ball</button>
-
-    <!-- Statistics Table -->
-    <div id="farewell" class="hidden">
-        <h2>Thank You for Playing!</h2>
-        <table id="statsTable">
-            <thead>
-                <tr>
-                    <th>Total Games Played</th>
-                    <th>Total Wins</th>
-                    <th>Winning Percentage</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Dynamic rows will be inserted here -->
-            </tbody>
-        </table>
+    <h1>Welcome to Last Gasp Furniture</h1>
+    <button id="purchaseBtn">Make a Purchase</button>
+    <div id="invoice" style="display: none;">
+        <h2>Invoice</h2>
+        <div id="itemsSummary"></div>
+        <hr>
+        <div id="transactionSummary"></div>
+        <button id="resetBtn">Shop Again</button>
     </div>
-
     <script src="JS/script.js"></script>
 </body>
 </html>
